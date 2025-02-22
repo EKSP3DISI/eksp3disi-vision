@@ -6,7 +6,7 @@ import os
 
 class PersonDetector:
     def __init__(self):
-        self.model = YOLO('Z:\GitHub\YOLO11\yolo11n.pt')
+        self.model = YOLO('checkpoints\yolo11x.pt')
         self.reference_image = None
         self.reference_features = None
         
