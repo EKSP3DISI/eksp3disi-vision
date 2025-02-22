@@ -1,0 +1,10 @@
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+pyrealsense2>=2.50.0
+ultralytics>=8.0.0
+
+# Optional dependencies for future YouTube integration
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=0.4.0
+google-auth-httplib2>=0.1.0
